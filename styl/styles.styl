@@ -1,8 +1,64 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome.eot');
+    src: url('../fonts/FontAwesome.eot') format('embedded-opentype'),
+         url('../fonts/FontAwesome.woff2') format('woff2'),
+         url('../fonts/FontAwesome.woff') format('woff'),
+         url('../fonts/FontAwesome.ttf') format('truetype'),
+         url('../fonts/FontAwesome.svg#FontAwesome') format('svg');
+}
+@font-face {
+    font-family: 'TrajanPro3Regular';
+    src: url('../fonts/TrajanPro3Regular.eot');
+    src: url('../fonts/TrajanPro3Regular.eot') format('embedded-opentype'),
+         url('../fonts/TrajanPro3Regular.woff2') format('woff2'),
+         url('../fonts/TrajanPro3Regular.woff') format('woff'),
+         url('../fonts/TrajanPro3Regular.ttf') format('truetype'),
+         url('../fonts/TrajanPro3Regular.svg#TrajanPro3Regular') format('svg');
+}
+@font-face {
+    font-family: 'TrajanPro3Bold';
+    src: url('../fonts/TrajanPro3Bold.eot');
+    src: url('../fonts/TrajanPro3Bold.eot') format('embedded-opentype'),
+         url('../fonts/TrajanPro3Bold.woff2') format('woff2'),
+         url('../fonts/TrajanPro3Bold.woff') format('woff'),
+         url('../fonts/TrajanPro3Bold.ttf') format('truetype'),
+         url('../fonts/TrajanPro3Bold.svg#TrajanPro3Bold') format('svg');
+}
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('../fonts/CenturyGothic.eot');
+    src: url('../fonts/CenturyGothic.eot') format('embedded-opentype'),
+         url('../fonts/CenturyGothic.woff2') format('woff2'),
+         url('../fonts/CenturyGothic.woff') format('woff'),
+         url('../fonts/CenturyGothic.ttf') format('truetype'),
+         url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+}
+@font-face {
+    font-family: 'CenturyGothicBold';
+    src: url('../fonts/CenturyGothicBold.eot');
+    src: url('../fonts/CenturyGothicBold.eot') format('embedded-opentype'),
+         url('../fonts/CenturyGothicBold.woff2') format('woff2'),
+         url('../fonts/CenturyGothicBold.woff') format('woff'),
+         url('../fonts/CenturyGothicBold.ttf') format('truetype'),
+         url('../fonts/CenturyGothicBold.svg#CenturyGothicBold') format('svg');
+}
+@font-face {
+    font-family: 'CenturyGothicBoldItalic';
+    src: url('../fonts/CenturyGothicBoldItalic.eot');
+    src: url('../fonts/CenturyGothicBoldItalic.eot') format('embedded-opentype'),
+         url('../fonts/CenturyGothicBoldItalic.woff2') format('woff2'),
+         url('../fonts/CenturyGothicBoldItalic.woff') format('woff'),
+         url('../fonts/CenturyGothicBoldItalic.ttf') format('truetype'),
+         url('../fonts/CenturyGothicBoldItalic.svg#CenturyGothicBoldItalic') format('svg');
+}
 *
 	margin 0
 	padding 0
 	outline none
-
+body
+	font-size: 16px
+	font-family: 'CenturyGothic', sans-serif
 a
 	color: #fefefe
 	&:focus
@@ -42,3 +98,35 @@ button
 		right 0
 		bottom 0
 		cursor pointer
+.button
+	display block
+	background-image: linear-gradient( 0deg, rgb(128,110,63) 15%, rgb(226,218,155) 100%);
+	box-shadow: inset 0 0 5px rgba(#ffffbe, .24), 0px 4px 0px 0px rgba(142, 123, 74, 0.98);
+	width 100%
+	max-width: 300px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 15px;
+	font-family: "CenturyGothicBold", sans-serif;
+	color: rgb(254, 254, 253);
+	text-transform: uppercase;
+	text-shadow: 0px 0px 4.9px rgba(19, 16, 9, 0.5);
+	text-align: center
+	border-radius: 32.5px
+	margin 0 auto
+	&:focus
+		color rgb(254, 254, 253);
+		text-decoration: none
+	&:hover
+		background-image: linear-gradient( 180deg, rgb(128,110,63) 15%, rgb(226,218,155) 100%);
+		color rgb(254, 254, 253);
+		text-decoration: none
+@import 'parts/main/main'
+@import 'parts/main/mail'
+@import 'parts/main/for'
+@import 'parts/main/reach'
+@import 'parts/main/about'
+@import 'parts/main/revs'
+@import 'parts/main/last'
+@import 'parts/main/footer'
+@import 'medias'
