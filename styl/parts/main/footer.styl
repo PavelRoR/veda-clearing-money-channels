@@ -1,0 +1,272 @@
+#footer
+	padding: 37px 0 33px
+	text-align: center
+	background-color: #000
+	h5
+		font-size: 24px;
+		color: #C9BC89
+		line-height: 1.042;
+		margin 0
+		font-family: "TrajanPro3Regular", serif;
+	p
+	#conditions
+		font-size: 14px;
+		font-family: "CenturyGothic", sans-serif;
+		color: #fefefe
+		line-height: 1.786;
+	#conditions
+		margin 15px 0 0
+		text-decoration: underline
+.soc_buttons
+	width 100%
+	margin: 0 auto
+	a
+		display: inline-block
+		margin: 17px 18px
+		position relative
+		z-index: 1
+		.fa
+			width: 30px;
+			height: 30px;
+			background-image: linear-gradient( 0, #806e3f 0%, #e2da9b 100%);
+			box-shadow 0 0 5px 0 rgba(#ffffbe, .24) inset
+			color #000
+			font-size 20px
+			line-height 30px
+			border-radius 50%
+			&:hover
+				background-image: linear-gradient( 180deg, #806e3f 0%, #e2da9b 100%);
+				color: #150d06
+#myPolitics
+	.modal-title
+		text-align: center
+		font-size: 22px
+		font-family: "OpenSansSemibold", sans-serif
+		small
+			display block
+			margin-top: 0
+	.modal-body
+		p
+			font-size: 16px;
+			text-align: left
+			margin-bottom: 20px
+.modal-header
+	position relative
+button.close
+	position: absolute
+	top 20px
+	right 20px
+	border-radius: 50%
+	height 30px
+	width: 30px
+	line-height: 30px
+	font-size: 18px
+	padding 0
+	margin 0
+	z-index 99
+#myModalForm
+	.modal-content
+		background-color #000
+		background-image url(../img/for_bg.png)
+		background-repeat: repeat
+		background-position: center
+		border 2px solid #C8BD83
+#modalForm
+	text-align: center
+	h4
+		font-size: 24px;
+		color: #C8BD83
+		margin: 20px 0
+		letter-spacing: -0.5px;
+		font-family: "TrajanPro3Regular", serif;
+	.form_bonus
+		font-size: 18px;
+		font-family: "CenturyGothic", sans-serif;
+		color: #fff
+		margin-bottom: 20px
+.form_newsletter
+	input
+		width: 100%
+		max-width: 260px
+		height: 56px
+		line-height: 56px
+		border: none
+		margin: 0 auto
+		padding-left:  20px
+		background-color: #F3EEE0
+		box-shadow: 0 0 5px 3px rgba(0,0,0,.15) inset
+		display: block
+		margin: 0 auto
+.button_modal
+	margin: 20px auto 0
+.alert_message {
+	display: none;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 10px;
+	font-family: 'CenturyGothic', sans-serif;
+	color: red;
+}
+.checking {
+	display: table;
+	max-width: 90%;
+	margin: 20px auto 0;
+	text-align: left;
+}
+
+.checking .check_label {
+	font-size: 11px;
+	font-family: "CenturyGothic", sans-serif;
+	color: #fff
+	line-height: 22px;
+	cursor: pointer;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 0 0 30px;
+	text-align: left
+}
+
+.checking .check_label a {
+	color: #fff
+	text-decoration: underline
+}
+
+.checking .check_label:before {
+	content: '';
+	border-radius: 2px;
+	background-color: #aaa;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 22px;
+	height: 22px;
+
+}
+
+.checking .check_label:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: -15px;
+	width: 18px;
+	height: 18px;
+	left: 3px;
+	top: -30px;
+	width: 16px;
+	height: 26px;
+	background-color: transparent;
+	opacity: 0;
+	border-bottom: 3px solid red;
+	border-right: 3px solid red;
+	-webkit-transform: rotate(41deg);
+	-ms-transform: rotate(41deg);
+	transform: rotate(41deg);
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+}
+
+.check {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	width: 0;
+	height 0;
+	border: 0;
+	left -99999px;
+}
+
+.check:checked + label:before {
+	border: 1px solid #c4c4c4;
+	background-color: #fff;
+
+}
+
+.check:checked + label:after {
+	opacity: 1;
+	top: -10px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+@-webkit-keyframes autofill {
+	to {
+		color: rgba(29, 28, 24, 0.702);
+		background: #f7f8fa;
+	}
+}
+
+input:-webkit-autofill {
+	-webkit-animation-name: autofill;
+	-webkit-animation-fill-mode: both;
+}
+.modal-content .close {
+	position: absolute;
+	border: 0;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	line-height: 20px;
+	right: 20px;
+	top: 20px;
+	z-index: 999;
+	padding: 0;
+	text-align: center
+	background-color #fff
+	color #000
+	opacity 1
+	font-weight: normal
+}
+
+.modal-content .close:hover {
+	background: #161511;
+	color: #fff;
+	border: 1px solid #eee;
+	line-height: 18px;
+}
+.modal_soc_buttons {
+	margin-top: 30px
+}
+
+.modal_soc_button {
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 3px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	padding: 0 5px;
+	font-size: 14px;
+	margin: 0 auto;
+	max-width: 170px
+}
+
+.modal_soc_button:focus,
+.modal_soc_button:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.modal_soc_button svg {
+	fill: #fff;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.soc_button_vk {
+	background-color: #31648B
+}
+
+.soc_button_tg {
+	background-color: #00B1EB
+}
+
+.soc_button_ms {
+	background-color: #008CFF
+}
