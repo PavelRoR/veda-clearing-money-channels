@@ -1,6 +1,7 @@
 section#main_screen
 	include header
 	.container
+		img#veda_main(src="img/veda_main.png", alt="Ольга Веда")
 		.main_container
 			.pre.pre_1 Бесплатный 5-ти дневный интенсив
 			.pre.pre_2 Основы магии
@@ -16,4 +17,13 @@ section#main_screen
 		p.main_author Автор: Ольга Веда
 		.video_wrapper.main_video_wrapper
 			iframe(src="https://youtube.com/embed/ZnkUGsNjJ9k?rel=0&autolay=1" allowfullscreen)
-		img#veda_main(src="img/veda_main.png", alt="Ольга Веда")
+		#mail_container
+			.col-md-7
+				h3.mail_title Интенсив стоит 4 990 рублей, но сегодня Вы можете приобрести его безоплатно
+					br
+					span Спешите записаться, места ограничены!
+				p.mail_subtitle + 
+					span бонус 
+					| от Ольги Веды
+			.col-md-5
+				button.button.button_mail(data-toggle="modal" data-target="#myModalForm") Записаться бесплатно
