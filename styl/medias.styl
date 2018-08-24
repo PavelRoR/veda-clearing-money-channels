@@ -21,6 +21,7 @@
 	.day_list li
 	h4.last_subtitle
 	#modalForm .form_bonus
+	.text_rev_descript_title
 		font-size: 24px
 	.main_subtitle
 		margin-top: 40px
@@ -32,17 +33,16 @@
 	.form_newsletter input
 	#myPolitics .modal-body p
 	.alert_message
+	.text_rev_p
 		font-size: 22px
 	.main_video_wrapper
-		width: 520px
-		margin-top: 40px
+		width: 430px
+		margin-top: -80px
 	#main_screen
 		background-position: center -300px
 	.mail_title
 	h3.last_subtitle+p
 		font-size: 26px
-	.button_mail
-		margin-top: 50px
 	#for_center_img
 		margin 110px auto 0
 	#reach
@@ -82,17 +82,29 @@
 		background-position: center
 	.ht_after_par
 		max-width 850px
+	#veda_main
+		width: 900px
+		bottom: 0
+	.pre_1
+		margin: 40px 0
+	.main_title img
+		margin 25px auto
+	.button
+	.mail_subtitle
+		max-width 380px
+	#text_reveiws .subtitle
+		max-width 1200px
+	.text_rev_item
+		min-height 772px
+	.last_wrapper
+		max-width 900px
 @media screen and (max-width 1199px)
 	.contacts a .fa
 		margin 0 8px 0 20px
 	.main_author
 		margin 15px 0
-	#veda_main
-		bottom: -100px
 	#mail_container
 		padding 30px
-	.button_mail
-		margin-top: 36px
 	#for_center_img
 		margin 100px auto 0
 		width: 100%
@@ -114,6 +126,12 @@
 		margin-top: 60px
 		a img
 			width: 100%
+	.date
+		left 38px
+	.main_video_wrapper
+		margin-top: -44px
+	.text_rev_item
+		min-height 650px
 @media screen and (max-width 991px)
 	#header
 		padding 15px 0
@@ -126,8 +144,7 @@
 		text-align: center
 		a
 			display: inline-block
-	.pre_1
-		margin: 22px 0
+
 	.main_video_wrapper
 		width 100%
 		max-width 400px
@@ -143,12 +160,14 @@
 	#veda_main
 		right -195px
 	#mail_container
-		padding 30px 30px 40px
+		padding 30px
 	.mail_title
 	.mail_subtitle
 		text-align: center
 	.button_mail
-		margin: 20px auto 0
+		margin: 20px auto 10px
+	.mail_subtitle
+		margin 0 auto
 	#for_center_img
 		display: none
 	.for_list_left li
@@ -173,6 +192,8 @@
 	#veda_about
 		position: static
 		max-width 400px
+	.text_rev_item
+		min-height auto
 @media screen and (max-width 767px)
 	#veda_main
 	.day_icon
@@ -185,6 +206,7 @@
 	#plan
 	#author
 	#last
+	#text_reveiws
 		padding 60px 0
 	#reveiws
 		padding-top: 60px
@@ -212,6 +234,17 @@
 		top 24%
 	#footer
 		padding 25px 0 20px
+	.text_rev_item
+		display block
+		padding 20px
+	.ava
+		position: static
+	#carousel_text .item
+		padding-left: 0
+		padding-right: 0
+	#carousel_text .controls
+		top: auto
+		bottom 15px
 @media screen and (max-width 620px)
 	.text_rev_item a
 		max-width 76%
@@ -233,6 +266,15 @@
 			margin-bottom: 20px
 	.last_wrapper
 		padding 51px 20px 64px
+	#carousel_video
+		margin-top: 35px;
+	.video_controls
+		top auto
+		bottom 10px
+	h4.last_subtitle
+		margin-top: 80px
+	.carousel_video_wrapper
+		max-width: 100%;
 @media screen and (max-width 426px)
 	.contacts a .fa + span
 	#footer #conditions, #footer p
@@ -252,6 +294,7 @@
 		line-height: 1.3
 	#author, #for, #last, #plan
 	#ht_feedback
+	#text_reveiws
 		padding: 40px 0;
 	#reach
 		padding 30px 0 40px
@@ -287,7 +330,6 @@
 		bottom 5px
 	#carousel_text .controls
 		top auto
-		bottom 36px
 	.text_rev_item a
 		max-width 100%
 		min-height auto
@@ -336,12 +378,12 @@
 		margin-bottom: 20px
 	h4.last_subtitle
 		font-size: 16px
-		margin-top: 20px
+		margin-top: 60px
 	#last
 		padding-bottom: 20px
 	.form_newsletter input
 		width 90%
 		height 40px
 		line-height: 40px
-	#carousel_text .controls
-		bottom 48px
+	// #carousel_text .controls
+	// 	bottom 48px
